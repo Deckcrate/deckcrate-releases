@@ -11,3 +11,10 @@ Choose macOS Apple Silicon (arm64), macOS Intel (x64), or Linux Debian (amd64). 
 Releases that include the updater check for new versions at startup. Updates require your approval, verify the release signature and retain the existing library and settings. Earlier versions require one manual upgrade.
 
 Created by [Jyojith George Thaliath](https://github.com/jyojith). Built by DJs, for DJs.
+
+## Release channels
+
+- [Stable release](https://github.com/Deckcrate/deckcrate-releases/releases/latest): recommended for normal use.
+- [Nightly preview — 0.3.0-nightly.20261110.1](https://github.com/Deckcrate/deckcrate-releases/releases/tag/v0.3.0-nightly.20261110.1): opt-in experimental build with the latest app changes.
+
+Dated nightly builds are prereleases. Nightly installations use a separate signed update feed; stable installations are not offered nightlies. Install the first nightly manually, and close any running DeckCrate instance first. Both channels use the same library and settings. The `nightly` channel release contains the update feed only; use a dated prerelease for installers.
